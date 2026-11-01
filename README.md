@@ -1,6 +1,10 @@
 # Clarinet R&D Prototyping Lab
 
-A Fortune-1000 grade computational physics environment for designing, simulating, and optimizing clarinet-family instruments. This application leverages the INRIA `openwind` library to provide accurate acoustic simulations and wraps them in a polished, interactive Streamlit interface.
+A **research prototype** for exploring clarinet geometry, acoustic modeling and numerical optimization with Python, Streamlit and the `openwind` library.
+
+**Scope and evidence:** This repository contains [simulation-adapter code](src/simulation/physics.py), an [optimization module](src/optimization/optimizer.py) and [tests](tests/test_core.py). Those artifacts show an experimental implementation. They do **not** establish independent physical validation, benchmark accuracy, professional instrument-design certification or production readiness. The test suite was not executed during this portfolio documentation review.
+
+**Business connection:** The research grew from practical specialty clarinet repair and design questions. It is included as cross-disciplinary experimentation rather than as a deployed commercial product.
 
 ## 🌟 Key Features
 
@@ -21,7 +25,7 @@ A Fortune-1000 grade computational physics environment for designing, simulating
 ### Setup
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/dthompsonfl/clarinet_simulator.git
     cd clarinet-rd-lab
     ```
 
