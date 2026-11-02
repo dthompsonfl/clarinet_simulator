@@ -2,7 +2,7 @@
 
 A **research prototype** for exploring clarinet geometry, acoustic modeling and numerical optimization with Python, Streamlit and the `openwind` library.
 
-**Scope and evidence:** This repository contains [simulation-adapter code](src/simulation/physics.py), an [optimization module](src/optimization/optimizer.py) and [tests](tests/test_core.py). Those artifacts show an experimental implementation. They do **not** establish independent physical validation, benchmark accuracy, professional instrument-design certification or production readiness. The test suite was not executed during this portfolio documentation review.
+**Scope and evidence:** This repository contains [simulation-adapter code](src/simulation/physics.py), an [optimization module](src/optimization/optimizer.py) and [tests](tests/test_core.py). Those artifacts show an experimental implementation. They do **not** establish independent physical validation, benchmark accuracy, professional instrument-design certification or production readiness. The Python test suite [passed in GitHub Actions](https://github.com/dthompsonfl/clarinet_simulator/actions/runs/41545498501) on Python 3.10, 3.11 and 3.12 on November 2, 2026. Passing tests do not validate the physical accuracy of the acoustic model.
 
 **Business connection:** The research grew from practical specialty clarinet repair and design questions. It is included as cross-disciplinary experimentation rather than as a deployed commercial product.
 
